@@ -84,7 +84,7 @@ section {
   padding: 100px;
 }
 
-section h4 {
+.section-h4-header {
   color: #6dc9c8;
 }
 
@@ -127,12 +127,59 @@ section .btn:hover {
 }
 
 .card {
-  background: #fdfbfb;
+  background: white;
   margin: 30px 0;
 }
 
 .card-body {
   padding: 30px;
+}
+
+footer {
+  border-top: solid 1px rgb(255, 255, 255, 0.75);
+}
+
+footer h2 {
+  font-size: 46px;
+  margin-top: 20px;
+}
+
+.email-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.email-link a:hover {
+  color: var(--secondary-color);
+}
+
+.social-links a {
+  color: black;
+  margin: 0 20px;
+  background: #ffc0c2;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  background: #6dc9c8;
+}
+
+.email-link-secondary a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.email-link-secondary a:hover {
+  color: white;
+}
+
+.social-links-secondary a:hover {
+  background: white;
+  color: black;
 }
 
 @media (max-width: 960px) {
