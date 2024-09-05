@@ -31,9 +31,13 @@
   <body>
     <div class="container">
       <header class="hero">
+        <h3>
+          <a href="#about">About</a> | <a href="#projects">My Projects</a> |
+          <a href="#contact">Contact Me</a>
+        </h3>
         <h2>Welcome! I am</h2>
         <h1>Nicky Stevens</h1>
-        <h2>
+        <h2 class="profession">
           Junior Front-end Developer and Information Management Professional
           based in the USA
         </h2>
@@ -44,7 +48,7 @@
             <h2>About me</h2>
           </div>
           <div class="about-me">
-            <p>
+            <p id="about">
               My name is Nicky Stevens. I am a graduate of the SheCodes coding
               bootcamp, a front-end developer, and an information management
               professional based in Florida, USA. With a Bachelor degree in
@@ -70,7 +74,7 @@
           </div>
         </section>
         <section class="secondary">
-          <h2 class="text-center">My projects</h2>
+          <h2 class="text-center" id="projects">My projects</h2>
           <h4 class="text-center section-h4-header">
             Projects were coded using VS Code
           </h4>
@@ -231,11 +235,79 @@
             </div>
           </div>
         </section>
+
+        <section class="secondary">
+          <h2 class="text-center" id="projects">Archival Projects</h2>
+          <h4 class="text-center section-h4-header">
+            Examples of archival collections processed (organization, research,
+            and data input) for the Georgia Historical Society
+          </h4>
+          <br />
+          <div class="grid grid-one-two-columns">
+            <div>
+              <img
+                src="./images/rosenblum.jpg"
+                alt="Lieutenant General Donald E. 'Rosie' Rosenblum caricature"
+                class="img-responsive rosenblum-image"
+              />
+            </div>
+            <div>
+              <h4>Lieutenant General Donald E. "Rosie" Rosenblum papers</h4>
+              <p>
+                This collection consists of the papers of Lieutenant General
+                Donald E. "Rosie" Rosenblum with a focus on Rosenblum's military
+                career and accomplishments, as well as items relating to his
+                business and personal life and family members.
+              </p>
+              <a
+                href="https://www.shecodes.io/cohorts/263/projects/261481?_gl=1*pry1up*_gcl_au*MTcxODkxNjI2NC4xNzIyMTA5MzkyLjE2NTQ3NjAyNDkuMTcyMjcyNjQwMS4xNzIyNzI2NDAw"
+                class="btn-archival"
+                target="_blank"
+                >View Collection</a
+              >
+              <br />
+
+              <h4>
+                Dr. John Duncan collection of Midnight in the Garden of Good and
+                Evil books and materials
+              </h4>
+              <p>
+                This collection consists of English and foreign language
+                editions of Midnight in the Garden of Good and Evil: A Savannah
+                Story, a book by John Berendt, and related materials, which were
+                collected by Dr. John Duncan, a former professor, historian, and
+                prominent resident of Savannah, Georgia.
+              </p>
+              <a
+                href="https://www.shecodes.io/cohorts/263/projects/261481?_gl=1*pry1up*_gcl_au*MTcxODkxNjI2NC4xNzIyMTA5MzkyLjE2NTQ3NjAyNDkuMTcyMjcyNjQwMS4xNzIyNzI2NDAw"
+                class="btn-archival"
+                target="_blank"
+                >View Collection</a
+              >
+              <br />
+              <h4>Edwin L. Jackson collection</h4>
+              <p>
+                This collection consists of materials collected by Edwin L.
+                Jackson, former faculty member of The University of Georgia's
+                Carl Vinson Institute of Government and prominent Georgia
+                historian and focuses on topics relating to the state of Georgia
+                other parts of the United States of America. (This is a growing
+                collection with wdditional processing performed by others.)
+              </p>
+              <a
+                href="https://www.shecodes.io/cohorts/263/projects/261481?_gl=1*pry1up*_gcl_au*MTcxODkxNjI2NC4xNzIyMTA5MzkyLjE2NTQ3NjAyNDkuMTcyMjcyNjQwMS4xNzIyNzI2NDAw"
+                class="btn-archival"
+                target="_blank"
+                >View Collection</a
+              >
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer>
         <div class="information-container contact-page text-center">
-          <h2>Contact me</h2>
+          <h2 id="contact">Contact me</h2>
           <div>
             <h3><i class="fa-regular fa-envelope"></i> Email</h3>
             <p>
