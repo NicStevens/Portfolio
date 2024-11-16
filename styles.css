@@ -235,6 +235,10 @@ footer .open-sourced-link:hover {
     font-size: 72px;
   }
 
+  .profession span {
+    font-size: 15px;
+  }
+
   .about-me-title {
     padding: 0;
   }
